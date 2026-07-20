@@ -1,7 +1,7 @@
 # 👟 SHOOZ - Modern Shoe E-Commerce Store
 
 <div align="center"> 
-  <h3> 🚀 Live Demo: <a href="/" target="_blank">
+  <h3> 🚀 Live Demo: <a href="https://shooz-kishan001.netlify.app/" target="_blank">
     View Website </a> 
   </h3> 
 </div>
