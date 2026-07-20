@@ -1,9 +1,9 @@
 # 👟 SHOOZ - Modern Shoe E-Commerce Store
 
-<div align="center">
-  <h3>
-    🚀 React-Based Shoe Shopping Experience
-  </h3>
+<div align="center"> 
+  <h3> 🚀 Live Demo: <a href="/" target="_blank">
+    View Portfolio </a> 
+  </h3> 
 </div>
 
 <div align="center">
