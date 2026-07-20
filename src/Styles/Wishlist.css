@@ -1,0 +1,534 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navbar section */
+
+.Label1 {
+    height: 35px;
+    color: #ece2e8;
+    background: linear-gradient(60deg, #4E4991, #AE3F4F);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0 20px;
+    font-size: 15px;
+}
+
+.Navbar1 {
+    width: 100%;
+}
+
+.nav1-top {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+    border-bottom: 1px solid #EAEAE2;
+
+}
+
+.nav1-top p {
+    font-size: 14px;
+}
+
+.icons1-1 {
+    width: 240px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+
+.icons1-1 p {
+    padding: 0 20px 0 0;
+    cursor: pointer;
+
+}
+
+.cart1-icon {
+    position: relative;
+    cursor: pointer;
+}
+
+.cart1-count {
+    position: absolute;
+    top: -8px;
+    right: -10px;
+
+    width: 18px;
+    height: 18px;
+
+    border-radius: 50%;
+
+    background: red;
+    color: white;
+
+    font-size: 11px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.nav1-bottom {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0px;
+    border-bottom: 1px solid #EAEAE2;
+}
+
+.nav1-bottom img {
+    width: 120px;
+    padding-left: 40px;
+    cursor: pointer;
+}
+
+.page1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 35px;
+    font-size: 19px;
+}
+
+.page1 p {
+    padding: 15px 0px;
+    cursor: pointer;
+}
+
+.icons1-2 {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    padding-right: 80px;
+    cursor: pointer;
+}
+
+
+/* Footer-section */
+
+.footer1 {
+    width: 100%;
+    background: #f8f6ef;
+    padding: 50px 150px 10px;
+    display: grid;
+    justify-content: center;
+}
+
+.footer1-container {
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 50px;
+    padding-bottom: 60px;
+}
+
+.footer1-box h3 {
+    font-size: 18px;
+    letter-spacing: 2px;
+    margin-bottom: 35px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.footer1-box ul {
+    list-style: none;
+    text-align: center;
+}
+
+.footer1-box ul li {
+    margin-bottom: 25px;
+}
+
+.footer1-box ul li a {
+    text-decoration: none;
+    color: #222;
+    font-size: 16px;
+    transition: .3s;
+}
+
+.footer1-box ul li a:hover {
+    color: #d66;
+}
+
+.center1-box {
+    text-align: center;
+}
+
+.center1-box img {
+    width: 160px;
+    margin-bottom: 25px;
+}
+
+.center1-box p {
+    font-size: 16px;
+    line-height: 2;
+    color: #333;
+}
+
+.account1-link {
+    color: #c96d6d !important;
+    border-bottom: 1px solid #c96d6d;
+    padding-bottom: 2px;
+}
+
+.footer1-bottom {
+    border-top: 1px solid #e4e4e4;
+    padding: 10px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer1-bottom p {
+    font-size: 16px;
+}
+
+.footer1-bottom span {
+    color: #d36b6b;
+}
+
+.payment1-icons {
+    display: flex;
+    gap: 10px;
+}
+
+.payment1-icons img {
+    width: 48px;
+    height: 30px;
+    object-fit: contain;
+    background: #fff;
+    border-radius: 4px;
+    padding: 3px;
+}
+
+
+/* wishlist-page */
+
+.wishlist-page {
+    min-height: 90vh;
+    padding: 50px 5%;
+    background: #f8f8f8;
+}
+
+.wishlist-page h1 {
+    text-align: center;
+    font-size: 42px;
+    margin-bottom: 30px;
+    font-weight: 600;
+    color: #222;
+}
+
+
+.empty-wishlist {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.empty-wishlist h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.empty-wishlist p {
+    color: #777;
+}
+
+/* Wishlist Grid */
+
+.wishlist-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 25px;
+    text-align: center;
+}
+
+/* Wishlist Card */
+
+.wishlist-card {
+    background: #fff;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+    transition: 0.3s ease;
+    /* text-align: center; */
+}
+
+.wishlist-card:hover {
+    transform: translateY(-6px);
+}
+
+.wishlist-card img {
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+}
+
+.wishlist-card h3 {
+    font-size: 18px;
+    padding: 5px 15px 5px;
+    color: #222;
+}
+
+.wishlist-card p {
+    padding: 5px 15px 5px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #111;
+}
+
+/* Continue Shopping Button */
+
+.back-btn {
+    display: block;
+    margin: 30px auto 0;
+    padding: 14px 35px;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    background: #111;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.back-btn:hover {
+    background: #444;
+}
+
+
+.pro1-buttons{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+.pro1-buttons button{
+    width: 47%;
+    height: 25px;
+
+    font-size: 13px;
+    font-weight: 600;
+
+    background-color: transparent;
+    color: #808080;
+
+    border: none;
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+.pro1-buttons button:hover{
+    color: #AE3F4F;
+    font-size: 14px;
+}
+
+
+/* ===============================
+    Media-Query 
+=================================*/ 
+
+
+/* laptop */
+
+@media (max-width:1200px){
+
+    .footer1{
+        padding:50px 50px 10px;
+    }
+
+    .footer1-container{
+        gap:30px;
+    }
+
+}
+
+/* 992 px */
+
+@media (max-width:992px){
+
+    .Label1{
+        font-size:13px;
+        gap:15px;
+    }
+
+    .nav1-top{
+        padding:0 20px;
+    }
+
+    .nav1-bottom{
+        padding:20px;
+    }
+
+    .nav1-bottom img{
+        padding-left:0;
+    }
+
+    .page1{
+        gap:20px;
+        font-size:16px;
+    }
+
+    .icons1-2{
+        padding-right:0;
+        gap:18px;
+    }
+
+    .wishlist-page h1{
+        font-size:36px;
+    }
+
+    .footer1{
+        padding:50px 30px 10px;
+    }
+
+    .footer1-container{
+        grid-template-columns:repeat(2,1fr);
+        gap:40px;
+    }
+
+}
+
+/* tablet */
+
+@media (max-width:768px){
+
+    .Label1{
+        flex-direction:column;
+        height:auto;
+        padding:10px;
+        gap:5px;
+        text-align:center;
+    }
+
+    .nav1-top{
+        display:none;
+    }
+
+    .nav1-bottom{
+        flex-direction:column;
+        gap:20px;
+    }
+
+    .page1{
+        flex-wrap:wrap;
+        justify-content:center;
+        gap:15px;
+        font-size:15px;
+    }
+
+    .wishlist-page{
+        padding:40px 20px;
+    }
+
+    .wishlist-page h1{
+        font-size:32px;
+    }
+
+    .wishlist-container{
+        grid-template-columns:repeat(2,1fr);
+        gap:20px;
+    }
+
+    .footer1{
+        padding:40px 20px 10px;
+    }
+
+}
+
+/* mobile */
+
+@media (max-width:576px){
+
+    .Label1{
+        font-size:11px;
+    }
+
+    .nav1-bottom img{
+        width:100px;
+    }
+
+    .page1{
+        display:none;
+    }
+
+    .wishlist-page{
+        padding:30px 15px;
+    }
+
+    .wishlist-page h1{
+        font-size:28px;
+    }
+
+    .empty-wishlist h2{
+        font-size:24px;
+    }
+
+    .wishlist-container{
+        grid-template-columns:1fr;
+    }
+
+    .wishlist-card img{
+        height:240px;
+    }
+
+    .wishlist-card h3{
+        font-size:16px;
+    }
+
+    .wishlist-card p{
+        font-size:18px;
+    }
+
+    .pro1-buttons{
+        display:flex;
+        flex-direction:column;
+        gap:10px;
+        padding:15px;
+    }
+
+    .pro1-buttons button{
+        width:100%;
+        height:40px;
+        border:1px solid #ddd;
+        border-radius:6px;
+    }
+
+    .back-btn{
+        width:100%;
+        max-width:280px;
+    }
+
+    .footer1-container{
+        grid-template-columns:1fr;
+        text-align:center;
+        gap:30px;
+    }
+
+    .footer1-bottom{
+        flex-direction:column;
+        gap:15px;
+        text-align:center;
+    }
+
+    .payment1-icons{
+        justify-content:center;
+        flex-wrap:wrap;
+    }
+
+}
