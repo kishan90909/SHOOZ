@@ -2,7 +2,7 @@
 
 <div align="center"> 
   <h3> 🚀 Live Demo: <a href="/" target="_blank">
-    View Portfolio </a> 
+    View Website </a> 
   </h3> 
 </div>
 
